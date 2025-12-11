@@ -5,11 +5,11 @@ Created by: Nicholas Seu
 
 #Static Map #1: Plainfield Parcels and Flood Zones
 
-<iframe src="plainfield_static_map.png" height="855" width="95%"></iframe>
+<iframe src="plainfield_static_map.png" height="855" width="855"></iframe>
 
 #Static Map #2: Plainfield Residential Property Values
 
-<iframe src="residential_parcel_property_value" height="855" width="95%"></iframe>
+<iframe src="residential_parcel_property_value" height="855" width="855"></iframe>
 
 #Interactive Webmap
 
