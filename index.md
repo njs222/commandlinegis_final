@@ -9,7 +9,7 @@ Created by: Nicholas Seu
 
 #Static Map #2: Plainfield Residential Property Values
 
-<iframe src="residential_parcel_property_value" height="1000" width="1000"></iframe>
+<iframe src="residential_parcel_property_value.jpg" height="1000" width="1000"></iframe>
 
 #Interactive Webmap
 
