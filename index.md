@@ -29,5 +29,4 @@ List item
 
 You can explore this map [as its own webpage here](test.html)
 
-
-#Data Description:
+# Data Description:
