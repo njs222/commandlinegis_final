@@ -20,7 +20,7 @@ This map includes:
 List item
 
 
-<iframe src="interactivemap.html" height="855" width="95%"></iframe>
+<iframe src="interactive_map.html" height="855" width="95%"></iframe>
 
 You can explore this map [as its own webpage here](test.html)
 
