@@ -1,7 +1,9 @@
-# **Command-Line GIS Final Project**
+# **Fall 2025 Command-Line GIS Final Project**
 ## Housing Parcels Located in Flood Zones (Plainfield, NJ)
 
-Created by: Nicholas Seu
+**Created by**: Nicholas Seu
+
+**Course**: 34:970:595 - Command-Line GIS
 
 ## Overview:
 * **Static Map #1**: Plainfield Parcels and Flood Zones
@@ -31,7 +33,7 @@ You can explore this map [as its own webpage here](test.html)
 
 # Data Description:
 ### Below is a list of sources that were used to create these maps:
-[FEMA's National Flood Hazard Layer (NFHL) Viewer ](https://www.arcgis.com/apps/webappviewer/index.html?id=8b0adb51996444d4879338b5529aa9cd) - 
+**[FEMA's National Flood Hazard Layer (NFHL) Viewer ](https://www.arcgis.com/apps/webappviewer/index.html?id=8b0adb51996444d4879338b5529aa9cd)** - 
 * Obtained From: ArcGIS.com
 * Prepared By: FEMA
 * Last Updated: December 16, 2021
@@ -39,7 +41,7 @@ You can explore this map [as its own webpage here](test.html)
 * Extra Steps Taken: Flood zones that were identified as 'AE', 'A', 'AO', 'AH' were grouped together as "High-Risk Areas" while the 'X' zones were grouped together as "Moderate to Low Risk Areas."
 * Challenges: N/A
 
-[Union County MODIV Parcel Data](https://njogis-newjersey.opendata.arcgis.com/documents/79789530a56d425082afade9fea64252/about) - 
+**[Union County MODIV Parcel Data](https://njogis-newjersey.opendata.arcgis.com/documents/79789530a56d425082afade9fea64252/about)** - 
 * Obtained From: NJGIN
 * Prepared By: New Jersey Office of GIS
 * Last Updated: November 24, 2025 
@@ -47,7 +49,7 @@ You can explore this map [as its own webpage here](test.html)
 * Extra Steps Taken: The parcel shapefile was merged with the Union County Tax List and was then clipped to Plainfield specifically, and then filtered to only show parcels that were identified as residential. Afterwards, all parcels belonging to the same municipality were dissolved into a single multi-polygon feature. Finally, the data found in the sale price column was specifically highlighted to show the value of the homes located in Plainfield.
 * Challenges: Initially, it was challenging to figure out how to filter out all of the irrelevant data. Additionally, the dataset had a lot of columns, so it took some time to narrow it down to the ones I needed.
 
-[United States 2023 Census Tracts(https://data2.nhgis.org/options)
+**[United States 2023 Census Tracts](https://data2.nhgis.org/options)**
 * Obtained From: NHGIS
 * Prepared By: U.S. Census Bureau
 * Last Updated: December 17, 2024
@@ -55,7 +57,7 @@ You can explore this map [as its own webpage here](test.html)
 * Extra Steps Taken: Converted the coordinate reference system from 102003 to 3424
 * Challenges: N/A
 
-[Train Station](https://njogis-newjersey.opendata.arcgis.com/datasets/NJTRANSIT::rail-stations-of-nj-transit/about)
+**[Rail Stations of NJ Transit](https://njogis-newjersey.opendata.arcgis.com/datasets/NJTRANSIT::rail-stations-of-nj-transit/about)**
 * Obtained From: NJGIN
 * Prepared By: NJ Transit GIS Department
 * Last Updated: July  21, 2021
