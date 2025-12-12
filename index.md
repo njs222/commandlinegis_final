@@ -31,15 +31,14 @@ You can explore this map [as its own webpage here](test.html)
 
 # Data Description:
 ### Below is a list of sources that were used to create these maps:
-
-[FEMA's National Flood Hazard Layer (NFHL) Viewer ](https://www.arcgis.com/apps/webappviewer/index.html?id=8b0adb51996444d4879338b5529aa9cd)
+[FEMA's National Flood Hazard Layer (NFHL) Viewer ](https://www.arcgis.com/apps/webappviewer/index.html?id=8b0adb51996444d4879338b5529aa9cd) - 
 * Obtained From: ArcGIS.com
 * Last Updated:
 * Original Format:
 * Extra Steps Taken:
 * Challenges:
 
-[Union County MODIV Parcel Data](https://njogis-newjersey.opendata.arcgis.com/documents/79789530a56d425082afade9fea64252/about)
+[Union County MODIV Parcel Data](https://njogis-newjersey.opendata.arcgis.com/documents/79789530a56d425082afade9fea64252/about) - 
 * Obtained From: NJGIN
 * Last Updated: November 24, 2025 
 * Original Format: Shapefile
