@@ -44,7 +44,7 @@ You can explore this map [as its own webpage here](test.html)
 * Prepared By: New Jersey Office of GIS
 * Last Updated: November 24, 2025 
 * Original Format(s): Shapefiles and Database Files
-* Extra Steps Taken: The parcel shapefile was merged with the Union County Tax List and was then clipped to Plainfield specifically, and then filtered to only show parcels that were identified as residential. Afterwards, all parcels belonging to the same municipality were dissolved into a single multi-polygon feature.
+* Extra Steps Taken: The parcel shapefile was merged with the Union County Tax List and was then clipped to Plainfield specifically, and then filtered to only show parcels that were identified as residential. Afterwards, all parcels belonging to the same municipality were dissolved into a single multi-polygon feature. Finally, the data found in the sale price column was specifically highlighted to show the value of the homes located in Plainfield.
 * Challenges: Initially, it was challenging to figure out how to filter out all of the irrelevant data. Additionally, the dataset had a lot of columns, so it took some time to narrow it down to the ones I needed.
 
 [United States 2023 Census Tracts(https://data2.nhgis.org/options)
@@ -64,4 +64,6 @@ You can explore this map [as its own webpage here](test.html)
 * Challenges: N/A
 
 ## Data Quality Issues:
-* There were no obvious missing data issues, but most of the datasets that were used just had a lot of data, which was a bit daunting at times. It also made it more challenging to identify any possible gaps in the data.
+* Some residential parcels had extremely high sale prices, which could be accurate, but there was no way to check.
+* The Flood Hazard Layer contained some "low-confidence" or "no estimate" data, but there did not seem to be any located in Plainfield specifically.
+* There were not many other obvious missing data-related issues, but most of the datasets that were used just had a lot of data, which was a bit daunting at times. It also made it more challenging to identify any possible gaps in the data.
